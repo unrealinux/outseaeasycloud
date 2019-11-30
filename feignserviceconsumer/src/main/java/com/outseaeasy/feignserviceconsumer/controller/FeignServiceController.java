@@ -16,6 +16,6 @@ public class FeignServiceController {
     @RequestMapping(value = "hello", method = RequestMethod.GET)
     public String Hello(@RequestParam String name){
 
-        return feignServiceInterface.Hello(name);
+        return feignServiceInterface.hello(name);
     }
 }

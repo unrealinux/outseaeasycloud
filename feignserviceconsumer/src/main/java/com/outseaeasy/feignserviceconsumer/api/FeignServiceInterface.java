@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface FeignServiceInterface {
 
     @RequestMapping(value = "hello", method = RequestMethod.GET)
-    String Hello(@RequestParam String name);
+    String hello(@RequestParam String name);
 }
